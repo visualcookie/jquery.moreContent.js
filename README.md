@@ -3,6 +3,7 @@ Your client has too much content for his website and the content seems not that 
 
 ## How it works
 If you implement **jquery.moreContent.js** correctly and call it on your prefered element the following will happen:
+
 1. The element gets wrapped by a default wrapper with the class of ```mc-wrapper```
 2. Button gets placed after your prefered element
 3. Prefered element gets a default height or your defined height and an ```css overflow: hidden;```
