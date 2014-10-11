@@ -6,7 +6,7 @@ If you implement **jquery.moreContent.js** correctly and call it on your prefere
 
 1. The element gets wrapped by a default wrapper with the class of ```mc-wrapper```
 2. Button gets placed after your prefered element
-3. Prefered element gets a default height or your defined height and an ```css overflow: hidden;```
+3. Prefered element gets a default height or your defined height and an ```overflow: hidden;```
 3. Some other weird sh*t happens
 
 The result: the content only isn't viewable for the human eye, but Crawler doesn't have the ability to understand JavaScript, so they'll see the whole content without height limitation.
@@ -14,7 +14,7 @@ The result: the content only isn't viewable for the human eye, but Crawler doesn
 ## Implementation
 1. You'll need [jQuery](http://jquery.com/download/) and [Velocity.js](http://julian.com/research/velocity/)
 2. Get [jquery.moreContent.js](../master/jquery.morecontent.js) up on your server
-3. Copy and paste this in your HTML/PHP document```html <script src="YOUR-JSDIR/jquery.moreContent.js"```
+3. Copy and paste this in your HTML/PHP document```<script src="YOUR-JSDIR/jquery.moreContent.js"```
 
 That's it.
 
@@ -23,11 +23,11 @@ Like all cool plugins for jQuery, you can configure amazing stuff. Here's a shor
 
 parameter | type | data-attribute | default | description
 --- | --- | --- | --- | ---
-height | int | ```html data-height="160"``` | ```javascript 160``` | set height for element
-duration | int | ```html data-duration="1000"``` | ```javascript 1000``` | set duration for animation
-btn | str | ```html data-btn="Open"``` | ```javascript "Open"``` | set default btn text
-btnActive | str | ```html data-btn-active="Close"``` | ```javascript "Close"``` | set active btn text
-btnClass | str | ```html data-btn-class="btn-default"``` | ```javascript "btn-default"``` | change btn class
+height | int | ```data-height="160"``` | ```160``` | set height for element
+duration | int | ```html data-duration="1000"``` | ```1000``` | set duration for animation
+btn | str | ```html data-btn="Open"``` | ```"Open"``` | set default btn text
+btnActive | str | ```html data-btn-active="Close"``` | ```"Close"``` | set active btn text
+btnClass | str | ```html data-btn-class="btn-default"``` | ```"btn-default"``` | change btn class
 
 ## License
 
