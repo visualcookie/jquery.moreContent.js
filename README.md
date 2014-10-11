@@ -21,7 +21,7 @@ That's it.
 Like all cool plugins for jQuery, you can configure amazing stuff. Here's a short table of what's configurable with **jQuery.moreContent.js**:
 
 parameter | type | data-attribute | default | description
---- |
+--- | --- | --- | --- | ---
 height | int | ```html data-height="160"``` | ```javascript 160``` | set height for element
 duration | int | ```html data-duration="1000"``` | ```javascript 1000``` | set duration for animation
 btn | str | ```html data-btn="Open"``` | ```javascript "Open"``` | set default btn text
