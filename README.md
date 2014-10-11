@@ -14,7 +14,7 @@ The result: the content only isn't viewable for the human eye, but Crawler doesn
 ## Implementation
 1. You'll need [jQuery](http://jquery.com/download/) and [Velocity.js](http://julian.com/research/velocity/)
 2. Get [jquery.moreContent.js](../master/jquery.morecontent.js) up on your server
-3. Copy and paste this in your HTML/PHP document```<script src="YOUR-JSDIR/jquery.moreContent.js"```
+3. Copy and paste this in your HTML/PHP document```<script src="YOUR-JSDIR/jquery.moreContent.js"></scrip>```
 
 That's it.
 
