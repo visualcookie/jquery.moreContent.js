@@ -24,10 +24,10 @@ Like all cool plugins for jQuery, you can configure amazing stuff. Here's a shor
 parameter | type | data-attribute | default | description
 --- | --- | --- | --- | ---
 height | int | ```data-height="160"``` | ```160``` | set height for element
-duration | int | ```html data-duration="1000"``` | ```1000``` | set duration for animation
-btn | str | ```html data-btn="Open"``` | ```"Open"``` | set default btn text
-btnActive | str | ```html data-btn-active="Close"``` | ```"Close"``` | set active btn text
-btnClass | str | ```html data-btn-class="btn-default"``` | ```"btn-default"``` | change btn class
+duration | int | ```data-duration="1000"``` | ```1000``` | set duration for animation
+btn | str | ```data-btn="Open"``` | ```"Open"``` | set default btn text
+btnActive | str | ```data-btn-active="Close"``` | ```"Close"``` | set active btn text
+btnClass | str | ```data-btn-class="btn-default"``` | ```"btn-default"``` | change btn class
 
 ## License
 
