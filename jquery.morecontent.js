@@ -1,7 +1,7 @@
 /**!
  * jquery.moreContent.js
  * [description] SEO friendly hiding of long texts
- * [version] 1.0.0
+ * [version] 1.0.1
  * [author] Dean Hidri
  * [website] http://visualcookie.me/
  * [repository] https://github.com/visualcookie/jquery.moreContent.js
@@ -20,7 +20,7 @@
 	};
 
 	$.fn.moreContent.init = function(options) {
-		options.button 					= $('<button class="'+ options.btnClass +'"/>').text(options.btn);
+		options.button 					= $('<button class="'+ options.labelclass +'"/>').text(options.labelopen);
 		options.wrapper					= $('<div class="mc-wrapper"/>');
 		options.instance.autoHeight		= options.instance.css('height', 'auto').height();
 
@@ -43,6 +43,7 @@
 
 		return options;
 	};
+	
 	$.fn.moreContent.click = function(options) {
 		if (!options.instance.hasClass('active')) {
 			options.instance.velocity(
@@ -53,7 +54,7 @@
 				duration: options.duration,
 				complete: function() {
 					options.instance.addClass('active');
-					options.button.addClass('active').text(options.btnActive);
+					options.button.addClass('active').text(options.labelclose);
 				}
 			}, 'ease-in-out');
 		} else {
@@ -65,7 +66,7 @@
 				duration: options.duration,
 				complete: function() {
 					options.instance.removeClass('active');
-					options.button.removeClass('active').text(options.btn);
+					options.button.removeClass('active').text(options.labelopen);
 				}
 			}, 'ease-in-out');
 		}
@@ -75,9 +76,9 @@
 	$.fn.moreContent.options = {
 		height: 160,
 		duration: 1000,
-		btn: 'Open',
-		btnActive: 'Close',
-		btnClass: 'btn-default'
+		labelopen: 'Open',
+		labelclose: 'Close',
+		labelclass: 'btn-primary'
 	}
 
 })(jQuery);
