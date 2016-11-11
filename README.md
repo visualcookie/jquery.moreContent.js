@@ -1,7 +1,7 @@
 # jQuery moreContent
 Your client has too much content for his website and the content seems not that important (like a product description)? Say goodbye to long description content with this tiny plugin for jQuery. Oh, and hey: it's **SEO friendly** for all those who asked.
 
-**[Demo](http://codepen.io/visualcookie/full/myyGWQ/)**
+**IMPORTANT NOTE:** I'm no longer maintaining this project.
 
 ## How it works
 If you implement **jQuery moreContent** correctly and call it on your preferred element the following will happen:
